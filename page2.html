@@ -1,0 +1,380 @@
+
+<!DOCTYPE html>
+<html>
+<link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
+<head>
+    <meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Us</title>
+</head>
+<style>
+
+.header {
+	background-color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+body {
+	margin:0;
+	padding:0;
+	font-family:arial;
+}
+
+.nav ul {
+	list-style-type: none;
+	background-color: rgb(0,0,102);
+	text-align:center;
+	margin: 0;
+	padding: 0;  
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav a {
+  text-decoration: none;
+  width: 150px;
+  display: block;
+  margin: 5px;
+  padding: 20px;
+  font-size: 20px;
+  font-family: Helvetica;
+  color: white;
+}
+
+.nav a:hover {
+  background-color: rgb(0,0,153);
+  transition: 0.4s;
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #cccccc;
+	margin: -10px;
+}
+
+.flex-container > div {
+	background-color: #800000;
+	width: 350px;
+	margin: 25px;
+	text-align: center;
+	line-height: 30px;
+	color: white;
+	font-family: 'Alegreya Sans SC';
+	font-size: 24px;
+	border: 2px solid white;
+	border-radius: 10px;
+}
+
+h1.impact {
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+.button {
+	background-color:#b30000;
+	font-size: 24px;
+	font-family: candara;
+	border: solid white 3px;
+	padding: 10px 18px;
+	color: white;
+	display: inline-block;
+	cursor: pointer;
+	border-radius: 100px;
+}
+
+.button:hover {
+  background-color: #e60000;
+  transition: 0.4s;
+}
+
+#myHeader {
+  background-color:#cc0000;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border: solid rgb(0,0,102) 5px;
+}
+.fix-footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:#cccccc;
+   color:#00004d ;
+}
+
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 18px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: black;
+  font-size: 16px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+</style>
+<body>
+
+<div class ="header">
+	<img src="chelsea academy profile picture.png" style="width:300px;height:250px;">
+	<h1 style = "font-family: Sans-Serif;
+	color: #000000;"> 
+		@ United World College East Campus, Tampines 
+	</h1>
+</div>
+
+<div class = "nav">
+	<ul style = "text-align: center;">
+		<li><a href="index.html">HOME</a></li> 
+		<li><a href="page2.html">PROGRAMMES</a></li> 
+		<li><a href="page3.html">COACH PROFILE</a></li> 
+		<li><a href="page4.html">LOCATION</a></li>  
+	</ul>
+</div>
+
+<br>
+
+<div class="flex-container">
+	<div style = "flex-basis: 500px;">
+		<h3 id="CP"> <ins> Community Programmes </ins> </h3>
+		<p> <li> <i> Community Coaching Clinic </i> (Age: 7 - 12) - Wednesday 18:15 - 19:15 ($16/session) </li> <br>
+		<li> <i> Goalkeeper Coaching Clinic </i> (Age: 8 - 16) - Monday 18:15 - 19:30 ($40/session) </li> <br>
+		<li> <i> Weekend Coaching Clinic </i> (Age: 7 - 12) - Saturday 09:30 - 11:00 ($34/session) </li> <br>
+		<li> <i> Girls Weekend Coaching Clinic </i> (Age: 7 - 12) - Saturday 09:30 - 11:00 ($34/session) </li>
+		</p>
+	</div>
+	<div <div style = "flex-basis: 250px; background-color:#000066;">
+		<h3 id="AP"> <ins> Academy Programmmes </ins> </h3>
+		<p> <i> *TRAIL REQUIRED* </i> </p> 
+		<p> <i> U8 to U16 teams </i> </p>
+		<p> Contact us by Email to  </p>
+		<a href = "mailto: teams.cfcidcsg@uwcsea.edu.sg"> register for a trial </a> 
+	</div>
+	<div style = "flex-basis: 500px;">
+		<h3 id="HP"> <ins> Holiday Programmes </ins> </h3>
+		<p> <li> Mini Merlions Camp (Age: 4 - 6) 09:00 - 12:00 ($50/day) </p>
+		<p> <li> Holiday Camp (Age: 7 - 12) 09:00 - 15:00 ($100/day) </p> 
+		<p> Upcoming dates: <li> 2-5 April </li> <li> 9 - 12 April </li> <li> 25 - 28 June </li> <li> 2 - 5 July </li> </p>
+		<p style = "font-size: 20px"> Sign up <a href = "https://form.jotform.me/72608900540452"> here. </a>
+		</p>
+	</div>
+</div>
+
+<center>
+<form action="https://www.chelseafc.com/en/foundation/soccer-schools/international-development-centre---singapore">
+	<button class="button"> CLICK HERE FOR MORE DETAILS </button>
+</form>
+</center>
+
+<br><br>
+<h1 id="myHeader" style="font-family: Helvetica; color:#FFF8DC" > 
+	PHOTO GALLERY
+</h1>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="coaching team.jpeg" alt="coaching team" style="width:100%">
+  <div class="text">Coaching team</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="chelsea kids training.jpeg" alt="Training taking place" style="width:100%">
+  <div class="text">Kids hard at work</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="rooftop pitch.jpeg" alt="rooftop pitch" style="width:100%">
+  <div class="text">Our syntehtic high quality pitch</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<br><br><br><br>
+
+<div class="footer">
+	<h1 class ="impact;" 
+		style = "text-decoration: underline;
+		text-align: center;
+		color: #0000CD;
+		font-family: 'Garamond';" > 
+		HERE TO PLAY, HERE TO STAY!
+	</h1>
+	<p class = "alignleft" 
+		style= "margin-left:48px;
+		font-family: Georgia;
+		line-height: 15px;
+		text-decoration: underline;">
+		SOCIAL MEDIA 
+	</p>
+	<p class = "alignright" 
+	style= "margin-right: 9px;
+			font-size: 16px;
+			font-family: Georgia;
+			line-height: 15px;">
+		|<a href="https://www.chelseafc.com/en/about-chelsea/faqs"> FAQS </a>
+		|<a href="https://www.chelseafc.com/en/about-chelsea/about-the-club/careers"> CAREERS </a> 
+		|<a href="https://www.chelseafc.com/en/footer/privacy-policy"> PRIVACY POLICY </a>
+		|<a href="https://www.chelseafc.com/en/footer/terms-and-conditions"> TERMS & CONDITIONS|</a>
+	</p>
+<br><br><br>
+	<p class = "alignleft"
+		style = "margin: 9px;"> 
+		<a href="https://www.facebook.com/pg/Chelseafcidcsg/photos/?ref=page_internal"><img src="facebook logo.png" style="width:55px;height:55px;"></a>
+		<a href="https://www.instagram.com/chelseafcidcsg/?hl=en"><img src="instagram logo.jpeg" style="width:55px;height:55px;"></a>
+		<a href="https://twitter.com/ChelseaFC"><img src="twitter logo.png" style="width:55px;height:55px;"></a>
+		<a href="https://www.youtube.com/channel/UCU2PacFf99vhb3hNiYDmxww"><img src="youtube logo.jpeg" style="width:55px;height:55px;"></a>
+	</p>
+	<p class = "alignright" 
+	style= "margin-right: 10px;
+			font-size: 18px;
+			font-family: Garamond;
+			line-height: 10px;">
+		<img src="chelsea fc logo.png" style="width:65px;height:50px;"> 
+		© 2021 Chelsea FC
+	</p>
+</div>
+
+</body>
+
+</html>
+
+
+
